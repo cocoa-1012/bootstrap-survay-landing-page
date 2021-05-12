@@ -1,0 +1,34 @@
+1. Project structure
+	- landingpage.html
+	- bootstrap.min.css
+	- survey-jquery-modern.css
+	- index.css
+	o img (image folder)
+2. Explanation
+	html file - 1
+	custom css file - 2 (index, survey-jquery-modern)
+	bootstrap css library - 1
+	
+	- we've used the bootstrap and survey-jquery for this project.
+	   o Bootstrap
+		* Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites.
+		* Bootstrap 4 is the newest version of Bootstrap.
+	 	* This provides the grids automatically, so we can apply them as the types "col-lg-*, col-md-*, col-sm-*". this helps us to make mobile-friendly responsive.
+	   o Survey-jquery
+		* survey.js is a JavaScript Survey Library. It is a modern way to add a survey to our website. It uses JSON for survey metadata and results.
+		{landingpage.html 62 - 141 lines}
+		* We can find the example code at following links https://surveyjs.io/Examples/Library
+		* We had to customized the survey-jquery.css so that we can get the favorite design.
+		  . 1) find the element's id or class name from the Inspect on your browser (for example class="sv-body__progress" or id="sq_105_ariaTitle")
+		  . 2) download the link("https://unpkg.com/survey-jquery@1.8.36/modern.css") and find the same name.
+		  . 3) replace or change the css content so that it makes your favorite design. (*.*)
+		* I've made a custom css file (survey-jquery-modern.css) so that you can understand it easily.
+	- mobile responsive
+	  o (max-width: 992px) 
+	  o (max-width: 576px)
+	  o (max-width: 576px)
+		you can see the change in displaying when the browser width has changed.
+	- CSS
+	   o you can see the "!important" in the index.css
+		* important property in CSS is used to provide more weight (importance) than normal property. In CSS, the ! important means that “this is important”, ignore all the subsequent rules, and apply ! important rule and the !
+		* Since we use the bootstrap CSS and survey-jquery CSS for this project, there are a lot of default properties. So we had to use the "!important" so that our custom css works well there.

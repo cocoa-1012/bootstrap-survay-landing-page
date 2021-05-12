@@ -1,0 +1,38 @@
+.sv-body__progress {
+    margin-bottom: 4.5em;
+}
+
+.sv-body__progress:not(:first-child) {
+    margin-top: 2.5em;
+}
+
+.sv-page__title {
+    font-size: 1.5em;
+}
+
+.sv-row:not(:last-child) {
+    padding-bottom: 1em;
+}
+
+#sq_105_ariaTitle {
+    display: none;
+}
+
+.sv-question__erbox {
+    margin-top: -10px;
+}
+
+.sv-footer__complete-btn {
+    background-color: #5ba72c !important;
+    float: center;
+}
+
+.sv-body__footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sv-footer {
+    padding: 1em 0 0.87em 0;
+}
